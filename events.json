@@ -1,0 +1,34 @@
+{
+    "events": [
+        {
+            "citations": [],
+            "constraints": [
+                {
+                    "type": "narrative_entrypoint"
+                }
+            ],
+            "description": "John Egbert is introduced and given a name.",
+            "id": "60cc3565-ab2b-4f9a-8419-7d1051d19c82",
+            "name": "John's introduction",
+            "portrayed_in": {
+                "panel": 1,
+                "paragraph": 0,
+                "sentence": 0,
+                "type": "narration",
+                "work": "homestuck"
+            },
+            "tags": [],
+            "universes": [
+                {
+                    "characters": [
+                        "john egbert"
+                    ],
+                    "items": [],
+                    "location": "/earth/egberthouse/johnsroom",
+                    "name": "earth-pre-scratch",
+                    "timeline": "/"
+                }
+            ]
+        }
+    ]
+}
