@@ -67,6 +67,44 @@
                     "timeline": "/"
                 }
             ]
+        },
+        {
+            "citations": [],
+            "constraints": [
+                {
+                    "is_after": true,
+                    "ref_event": "fd76a198-4c95-4c27-a0f3-5c17ca9438aa",
+                    "type": "narrative_immediate"
+                }
+            ],
+            "description": "John picks up the smoke pellets from his magic chest",
+            "id": "61e02c8c-5503-496f-82f3-1085ef2257a1",
+            "name": "John picks up smoke pellets",
+            "portrayed_in": {
+                "panel": 9,
+                "paragraph": 0,
+                "sentence": 0,
+                "type": "narration",
+                "work": "homestuck"
+            },
+            "tags": [
+                {
+                    "character": "john-egbert",
+                    "item": "smoke-pellets",
+                    "type": "char_obtains_item"
+                }
+            ],
+            "universes": [
+                {
+                    "characters": [
+                        "john-egbert"
+                    ],
+                    "items": [],
+                    "location": "/earth/egberthouse/johnsroom",
+                    "name": "earth-pre-scratch",
+                    "timeline": "/"
+                }
+            ]
         }
     ]
 }
