@@ -29,6 +29,44 @@
                     "timeline": "/"
                 }
             ]
+        },
+        {
+            "citations": [],
+            "constraints": [
+                {
+                    "is_after": true,
+                    "ref_event": "60cc3565-ab2b-4f9a-8419-7d1051d19c82",
+                    "type": "narrative_immediate"
+                }
+            ],
+            "description": "John moves the cake off of his magic chest and picks up the fake arms",
+            "id": "fd76a198-4c95-4c27-a0f3-5c17ca9438aa",
+            "name": "EB quickly retrieves arms",
+            "portrayed_in": {
+                "panel": 7,
+                "paragraph": 0,
+                "sentence": 0,
+                "type": "narration",
+                "work": "homestuck"
+            },
+            "tags": [
+                {
+                    "character": "john-egbert",
+                    "item": "fake arms",
+                    "type": "char_obtains_item"
+                }
+            ],
+            "universes": [
+                {
+                    "characters": [
+                        "john-egbert"
+                    ],
+                    "items": [],
+                    "location": "/earth/egberthouse/johnsroom",
+                    "name": "earth-pre-scratch",
+                    "timeline": "/"
+                }
+            ]
         }
     ]
 }
