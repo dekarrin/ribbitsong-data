@@ -21,7 +21,7 @@
             "universes": [
                 {
                     "characters": [
-                        "john egbert"
+                        "john-egbert"
                     ],
                     "items": [],
                     "location": "/earth/egberthouse/johnsroom",
@@ -219,6 +219,58 @@
                         "john-egbert"
                     ],
                     "items": [],
+                    "location": "/earth/egberthouse/johnsroom",
+                    "name": "earth-pre-scratch",
+                    "timeline": "/"
+                }
+            ]
+        },
+        {
+            "citations": [],
+            "constraints": [
+                {
+                    "is_after": true,
+                    "ref_event": "acac4a72-4359-4bc0-bac2-1b691f07c6da",
+                    "type": "narrative_causal"
+                }
+            ],
+            "description": "John merges the hammer and nails to obtain the single HAMMER and NAILS object",
+            "id": "bfa195ab-df0a-4752-9d3f-76f73179c301",
+            "name": "John merges the hammer and nails",
+            "portrayed_in": {
+                "panel": 17,
+                "paragraph": 1,
+                "sentence": 1,
+                "type": "narration",
+                "work": "homestuck"
+            },
+            "tags": [
+                {
+                    "by": "john-egbert",
+                    "result_items": [
+                        "hammer-and-nails"
+                    ],
+                    "source_items": [
+                        "hammer",
+                        "nails-4"
+                    ],
+                    "type": "item_merged"
+                },
+                {
+                    "property": "count",
+                    "recipient": "hammer-and-nails",
+                    "type": "state_changed",
+                    "value": "4"
+                }
+            ],
+            "universes": [
+                {
+                    "characters": [
+                        "john-egbert"
+                    ],
+                    "items": [
+                        "fake-arms"
+                    ],
                     "location": "/earth/egberthouse/johnsroom",
                     "name": "earth-pre-scratch",
                     "timeline": "/"
