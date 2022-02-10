@@ -143,6 +143,87 @@
                     "timeline": "/"
                 }
             ]
+        },
+        {
+            "citations": [],
+            "constraints": [
+                {
+                    "is_after": true,
+                    "ref_event": "dee82f0b-f663-47b4-8eb8-43d645f77fc5",
+                    "type": "narrative_immediate"
+                }
+            ],
+            "description": "John captchalogs a hammer from his room",
+            "id": "fea2d794-a318-4817-b188-a327a7c9b180",
+            "name": "John picks up a hammer",
+            "portrayed_in": {
+                "panel": 14,
+                "paragraph": 1,
+                "sentence": 1,
+                "type": "narration",
+                "work": "homestuck"
+            },
+            "tags": [
+                {
+                    "character": "john-egbert",
+                    "item": "hammer",
+                    "type": "char_obtains_item"
+                }
+            ],
+            "universes": [
+                {
+                    "characters": [
+                        "john-egbert"
+                    ],
+                    "items": [],
+                    "location": "/earth/egberthouse/johnsroom",
+                    "name": "earth-pre-scratch",
+                    "timeline": "/"
+                }
+            ]
+        },
+        {
+            "citations": [],
+            "constraints": [
+                {
+                    "is_after": true,
+                    "ref_event": "fea2d794-a318-4817-b188-a327a7c9b180",
+                    "type": "narrative_immediate"
+                }
+            ],
+            "description": "John picks up nails from his room, shooting the fake arms out due to captchalogue space",
+            "id": "acac4a72-4359-4bc0-bac2-1b691f07c6da",
+            "name": "John picks up nails",
+            "portrayed_in": {
+                "panel": 15,
+                "paragraph": 1,
+                "sentence": 1,
+                "type": "narration",
+                "work": "homestuck"
+            },
+            "tags": [
+                {
+                    "character": "john-egbert",
+                    "item": "nails-4",
+                    "type": "char_obtains_item"
+                },
+                {
+                    "character": "john-egbert",
+                    "item": "fake-arms",
+                    "type": "char_drops_item"
+                }
+            ],
+            "universes": [
+                {
+                    "characters": [
+                        "john-egbert"
+                    ],
+                    "items": [],
+                    "location": "/earth/egberthouse/johnsroom",
+                    "name": "earth-pre-scratch",
+                    "timeline": "/"
+                }
+            ]
         }
     ]
 }
