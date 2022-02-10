@@ -105,6 +105,44 @@
                     "timeline": "/"
                 }
             ]
+        },
+        {
+            "citations": [],
+            "constraints": [
+                {
+                    "is_after": true,
+                    "ref_event": "61e02c8c-5503-496f-82f3-1085ef2257a1",
+                    "type": "narrative_causal"
+                }
+            ],
+            "description": "John picks up the poster in his room after examining the other items in it",
+            "id": "dee82f0b-f663-47b4-8eb8-43d645f77fc5",
+            "name": "John takes poster",
+            "portrayed_in": {
+                "panel": 13,
+                "paragraph": 0,
+                "sentence": 0,
+                "type": "narration",
+                "work": "homestuck"
+            },
+            "tags": [
+                {
+                    "character": "john-egbert",
+                    "item": "poster",
+                    "type": "char_obtains_item"
+                }
+            ],
+            "universes": [
+                {
+                    "characters": [
+                        "john-egbert"
+                    ],
+                    "items": [],
+                    "location": "/earth/egberthouse/johnsroom",
+                    "name": "earth-pre-scratch",
+                    "timeline": "/"
+                }
+            ]
         }
     ]
 }
