@@ -5,6 +5,17 @@
             "constraints": [
                 {
                     "type": "narrative_entrypoint"
+                },
+                {
+                    "citation": {
+                        "panel": 1,
+                        "paragraph": 1,
+                        "sentence": 2,
+                        "type": "narration",
+                        "work": "homestuck"
+                    },
+                    "time": "4/13/2009",
+                    "type": "absolute"
                 }
             ],
             "description": "John Egbert is introduced and given a name.",
@@ -272,6 +283,227 @@
                         "fake-arms"
                     ],
                     "location": "/earth/egberthouse/johnsroom",
+                    "name": "earth-pre-scratch",
+                    "timeline": "/"
+                }
+            ]
+        },
+        {
+            "citations": [],
+            "constraints": [
+                {
+                    "is_after": true,
+                    "ref_event": "bfa195ab-df0a-4752-9d3f-76f73179c301",
+                    "type": "narrative_immediate"
+                }
+            ],
+            "description": "John uses the hammer and nails with the poster to nail it to his wall",
+            "id": "684f2db6-4529-4ae3-896c-b66ce905eb3f",
+            "name": "John nails poster to wall",
+            "portrayed_in": {
+                "panel": 19,
+                "paragraph": 0,
+                "sentence": 0,
+                "type": "narration",
+                "work": "homestuck"
+            },
+            "tags": [
+                {
+                    "character": "john-egbert",
+                    "consumed": false,
+                    "item": "hammer-and-nails",
+                    "type": "char_uses_item"
+                },
+                {
+                    "character": "john-egbert",
+                    "consumed": true,
+                    "item": "poster",
+                    "type": "char_uses_item"
+                },
+                {
+                    "character": "john-egbert",
+                    "item": "poster",
+                    "type": "char_drops_item"
+                }
+            ],
+            "universes": [
+                {
+                    "characters": [
+                        "john-egbert"
+                    ],
+                    "items": [
+                        "fake-arms",
+                        "poster"
+                    ],
+                    "location": "/earth/egberthouse/johnsroom",
+                    "name": "earth-pre-scratch",
+                    "timeline": "/"
+                }
+            ]
+        },
+        {
+            "citations": [],
+            "constraints": [
+                {
+                    "is_after": true,
+                    "ref_event": "684f2db6-4529-4ae3-896c-b66ce905eb3f",
+                    "type": "narrative_immediate"
+                }
+            ],
+            "description": "John looks over his room and sees the posters, the calendar, and the cake, which he refuses to eat because he has had too much",
+            "id": "b29a1106-6da7-4dd7-b9c8-ea1f8434fa6d",
+            "name": "John examines his room",
+            "portrayed_in": {
+                "panel": 20,
+                "paragraph": 0,
+                "sentence": 0,
+                "type": "narration",
+                "work": "homestuck"
+            },
+            "tags": [],
+            "universes": [
+                {
+                    "characters": [
+                        "john-egbert"
+                    ],
+                    "items": [],
+                    "location": "/earth/egberthouse/johnsroom",
+                    "name": "earth-pre-scratch",
+                    "timeline": "/"
+                }
+            ]
+        },
+        {
+            "citations": [],
+            "constraints": [
+                {
+                    "is_after": true,
+                    "ref_event": "b29a1106-6da7-4dd7-b9c8-ea1f8434fa6d",
+                    "type": "narrative_causal"
+                },
+                {
+                    "citation": {
+                        "panel": 26,
+                        "paragraph": 1,
+                        "sentence": 1,
+                        "type": "narration",
+                        "work": "homestuck"
+                    },
+                    "time": "4/13/2009 16:13",
+                    "type": "absolute"
+                }
+            ],
+            "description": "Dave messages John and asks what he got during for his birthday. John and Dave discuss the little monsters poster and then Dave tells john to check the mail for his beta. Dave mentions he has two copies",
+            "id": "e983bdb2-dbec-4436-be9e-b6bb6e411d23",
+            "name": "TG -> EB: dave asks john to check mail for beta",
+            "portrayed_in": {
+                "character": "",
+                "line": 0,
+                "panel": 26,
+                "type": "dialog",
+                "work": "homestuck"
+            },
+            "tags": [],
+            "universes": [
+                {
+                    "characters": [
+                        "john-egbert"
+                    ],
+                    "items": [],
+                    "location": "/earth/egberthouse/johnsroom",
+                    "name": "earth-pre-scratch",
+                    "timeline": "/"
+                },
+                {
+                    "characters": [
+                        "dave-strider"
+                    ],
+                    "items": [],
+                    "location": "/earth/striderhouse/davesroom",
+                    "name": "earth-pre-scratch",
+                    "timeline": "/"
+                }
+            ]
+        },
+        {
+            "citations": [],
+            "constraints": [
+                {
+                    "is_after": true,
+                    "ref_event": "e983bdb2-dbec-4436-be9e-b6bb6e411d23",
+                    "type": "narrative_causal"
+                }
+            ],
+            "description": "John notices through his window that the mail has been delivered. In the mail is the beta, which john's father picks up",
+            "id": "7a862588-34f7-4fb2-b4c8-bd6da9f98c6b",
+            "name": "Beta is in mailbox",
+            "portrayed_in": {
+                "panel": 29,
+                "paragraph": 2,
+                "sentence": 2,
+                "type": "narration",
+                "work": "homestuck"
+            },
+            "tags": [
+                {
+                    "character": "dadbert",
+                    "item": "egbert-sburb-beta-client",
+                    "type": "char_obtains_item"
+                },
+                {
+                    "character": "dadbert",
+                    "item": "egbert-sburb-beta-server",
+                    "type": "char_obtains_item"
+                }
+            ],
+            "universes": [
+                {
+                    "characters": [
+                        "dadbert"
+                    ],
+                    "items": [],
+                    "location": "/earth/egberthouse/yard",
+                    "name": "earth-pre-scratch",
+                    "timeline": "/"
+                }
+            ]
+        },
+        {
+            "citations": [],
+            "constraints": [
+                {
+                    "is_after": true,
+                    "ref_event": "7a862588-34f7-4fb2-b4c8-bd6da9f98c6b",
+                    "type": "narrative_immediate"
+                }
+            ],
+            "description": "Dave attempts to message john but john does not answer",
+            "id": "2462a037-20c7-4c50-aa0c-5f01274a60b4",
+            "name": "TG -> EB: ping",
+            "portrayed_in": {
+                "panel": 30,
+                "paragraph": 4,
+                "sentence": 0,
+                "type": "narration",
+                "work": "homestuck"
+            },
+            "tags": [],
+            "universes": [
+                {
+                    "characters": [
+                        "john-egbert"
+                    ],
+                    "items": [],
+                    "location": "/earth/egberthouse/johnsroom",
+                    "name": "earth-pre-scratch",
+                    "timeline": "/"
+                },
+                {
+                    "characters": [
+                        "dave-strider"
+                    ],
+                    "items": [],
+                    "location": "/earth/striderhouse/davesroom",
                     "name": "earth-pre-scratch",
                     "timeline": "/"
                 }
