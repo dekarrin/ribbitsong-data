@@ -255,13 +255,19 @@
             "tags": [
                 {
                     "character": "john-egbert",
-                    "item": "nails-4",
+                    "item": "nails",
                     "type": "char_obtains_item"
                 },
                 {
                     "character": "john-egbert",
                     "item": "fake-arms",
                     "type": "char_drops_item"
+                },
+                {
+                    "property": "count",
+                    "recipient": "nails",
+                    "type": "state_changed",
+                    "value": "4"
                 }
             ],
             "universes": [
@@ -311,7 +317,7 @@
                     ],
                     "source_items": [
                         "hammer",
-                        "nails-4"
+                        "nails"
                     ],
                     "type": "item_merged"
                 },
@@ -380,6 +386,22 @@
                     "character": "john-egbert",
                     "item": "poster",
                     "type": "char_drops_item"
+                },
+                {
+                    "property": "count",
+                    "recipient": "hammer-and-nails",
+                    "type": "state_changed",
+                    "value": "0"
+                },
+                {
+                    "by": "john-egbert",
+                    "result_items": [
+                        "hammer"
+                    ]
+                    "source_items": [
+                        "hammer-and-nails"
+                    ],
+                    "type": "item_split"
                 }
             ],
             "universes": [
@@ -593,6 +615,172 @@
                                     ],
                                     "items": [],
                                     "path": "/earth/striderhouse/davesroom"
+                                }
+                            ],
+                            "path": "/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "citations": [],
+            "constraints": [
+                {
+                    "is_after": true,
+                    "ref_event": "2462a037-20c7-4c50-aa0c-5f01274a60b4",
+                    "type": "narrative_causal"
+                }
+            ],
+            "description": "After examining his CD shelf and colonel sassacre's text, John has a lapse of judgement and captchalogues the arms again",
+            "id": "d740cc90-1e3d-48a9-a403-4b6cd5d39494",
+            "name": "John picks up fake arms again",
+            "portrayed_in": {
+                "panel": 33,
+                "paragraph": 2,
+                "sentence": 2,
+                "type": "narration",
+                "work": "homestuck"
+            },
+            "tags": [
+                {
+                    "character": "john-egbert",
+                    "item": "fake-arms",
+                    "type": "char_obtains_item"
+                }
+            ],
+            "universes": [
+                {
+                    "name": "earth-pre-scratch",
+                    "timelines": [
+                        {
+                            "locations": [
+                                {
+                                    "characters": [
+                                        "john-egbert"
+                                    ],
+                                    "items": [
+                                        "colonel-sassacre-text"
+                                    ],
+                                    "path": "/earth/egberthome/johnsroom"
+                                }
+                            ],
+                            "path": "/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "citations": [],
+            "constraints": [
+                {
+                    "is_after": true,
+                    "ref_event": "d740cc90-1e3d-48a9-a403-4b6cd5d39494",
+                    "type": "narrative_immediate"
+                },
+                {
+                    "citation": {
+                        "panel": 35,
+                        "paragraph": 0,
+                        "sentence": 0,
+                        "type": "narration",
+                        "work": "homestuck"
+                    },
+                    "time": "4/13/2009 16:16",
+                    "type": "absolute"
+                }
+            ],
+            "description": "john gets back to dave on the status of his beta, and lets him know that his dad took it. they discuss the sylladex and fetch modi. Dave recommends allocating the hammer to John's strife specibus",
+            "id": "d54b3f97-ed52-4314-935c-a263205905c1",
+            "name": "EB -> TG: Fetch Modus convo",
+            "portrayed_in": {
+                "character": "",
+                "line": 0,
+                "panel": 35,
+                "type": "dialog",
+                "work": "homestuck"
+            },
+            "tags": [],
+            "universes": [
+                {
+                    "name": "earth-pre-scratch",
+                    "timelines": [
+                        {
+                            "locations": [
+                                {
+                                    "characters": [
+                                        "john-egbert"
+                                    ],
+                                    "items": [],
+                                    "path": "/earth/egberthome/johnsroom"
+                                },
+                                {
+                                    "characters": [
+                                        "dave-strider"
+                                    ],
+                                    "items": [],
+                                    "path": "/earth/striderhouse/davesroom"
+                                }
+                            ],
+                            "path": "/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "citations": [],
+            "constraints": [
+                {
+                    "is_after": true,
+                    "ref_event": "d54b3f97-ed52-4314-935c-a263205905c1",
+                    "type": "narrative_immediate"
+                }
+            ],
+            "description": "To free up space in the sylladex, john puts the fake arms in the cake",
+            "id": "1f2cd164-4e00-4b45-859b-34c1ffbcac46",
+            "name": "John puts fake arms in cake",
+            "portrayed_in": {
+                "panel": 36,
+                "paragraph": 1,
+                "sentence": 1,
+                "type": "narration",
+                "work": "homestuck"
+            },
+            "tags": [
+                {
+                    "character": "john-egbert",
+                    "consumed": true,
+                    "item": "fake-arms",
+                    "type": "char_uses_item"
+                },
+                {
+                    "by": "john-egbert",
+                    "result_items": [
+                        "fake-arm-cake"
+                    ],
+                    "source_items": [
+                        "fake-arms",
+                        "cake"
+                    ],
+                    "type": "item_merged"
+                }
+            ],
+            "universes": [
+                {
+                    "name": "earth-pre-scratch",
+                    "timelines": [
+                        {
+                            "locations": [
+                                {
+                                    "characters": [
+                                        "john-egbert"
+                                    ],
+                                    "items": [
+                                        "fake-arm-cake"
+                                    ],
+                                    "path": "/earth/egberthouse/johnsroom"
                                 }
                             ],
                             "path": "/"
