@@ -31,13 +31,21 @@
             "tags": [],
             "universes": [
                 {
-                    "characters": [
-                        "john-egbert"
-                    ],
-                    "items": [],
-                    "location": "/earth/egberthouse/johnsroom",
                     "name": "earth-pre-scratch",
-                    "timeline": "/"
+                    "timelines": [
+                        {
+                            "locations": [
+                                {
+                                    "characters": [
+                                        "john-egbert"
+                                    ],
+                                    "items": [],
+                                    "path": "/earth/egberthouse/johnsroom"
+                                }
+                            ],
+                            "path": "/"
+                        }
+                    ]
                 }
             ]
         },
@@ -69,13 +77,21 @@
             ],
             "universes": [
                 {
-                    "characters": [
-                        "john-egbert"
-                    ],
-                    "items": [],
-                    "location": "/earth/egberthouse/johnsroom",
                     "name": "earth-pre-scratch",
-                    "timeline": "/"
+                    "timelines": [
+                        {
+                            "locations": [
+                                {
+                                    "characters": [
+                                        "john-egbert"
+                                    ],
+                                    "items": [],
+                                    "path": "/earth/egberthouse/johnsroom"
+                                }
+                            ],
+                            "path": "/"
+                        }
+                    ]
                 }
             ]
         },
@@ -107,13 +123,21 @@
             ],
             "universes": [
                 {
-                    "characters": [
-                        "john-egbert"
-                    ],
-                    "items": [],
-                    "location": "/earth/egberthouse/johnsroom",
                     "name": "earth-pre-scratch",
-                    "timeline": "/"
+                    "timelines": [
+                        {
+                            "locations": [
+                                {
+                                    "characters": [
+                                        "john-egbert"
+                                    ],
+                                    "items": [],
+                                    "path": "/earth/egberthouse/johnsroom"
+                                }
+                            ],
+                            "path": "/"
+                        }
+                    ]
                 }
             ]
         },
@@ -145,13 +169,21 @@
             ],
             "universes": [
                 {
-                    "characters": [
-                        "john-egbert"
-                    ],
-                    "items": [],
-                    "location": "/earth/egberthouse/johnsroom",
                     "name": "earth-pre-scratch",
-                    "timeline": "/"
+                    "timelines": [
+                        {
+                            "locations": [
+                                {
+                                    "characters": [
+                                        "john-egbert"
+                                    ],
+                                    "items": [],
+                                    "path": "/earth/egberthouse/johnsroom"
+                                }
+                            ],
+                            "path": "/"
+                        }
+                    ]
                 }
             ]
         },
@@ -183,13 +215,21 @@
             ],
             "universes": [
                 {
-                    "characters": [
-                        "john-egbert"
-                    ],
-                    "items": [],
-                    "location": "/earth/egberthouse/johnsroom",
                     "name": "earth-pre-scratch",
-                    "timeline": "/"
+                    "timelines": [
+                        {
+                            "locations": [
+                                {
+                                    "characters": [
+                                        "john-egbert"
+                                    ],
+                                    "items": [],
+                                    "path": "/earth/egberthouse/johnsroom"
+                                }
+                            ],
+                            "path": "/"
+                        }
+                    ]
                 }
             ]
         },
@@ -226,13 +266,21 @@
             ],
             "universes": [
                 {
-                    "characters": [
-                        "john-egbert"
-                    ],
-                    "items": [],
-                    "location": "/earth/egberthouse/johnsroom",
                     "name": "earth-pre-scratch",
-                    "timeline": "/"
+                    "timelines": [
+                        {
+                            "locations": [
+                                {
+                                    "characters": [
+                                        "john-egbert"
+                                    ],
+                                    "items": [],
+                                    "path": "/earth/egberthouse/johnsroom"
+                                }
+                            ],
+                            "path": "/"
+                        }
+                    ]
                 }
             ]
         },
@@ -276,15 +324,23 @@
             ],
             "universes": [
                 {
-                    "characters": [
-                        "john-egbert"
-                    ],
-                    "items": [
-                        "fake-arms"
-                    ],
-                    "location": "/earth/egberthouse/johnsroom",
                     "name": "earth-pre-scratch",
-                    "timeline": "/"
+                    "timelines": [
+                        {
+                            "locations": [
+                                {
+                                    "characters": [
+                                        "john-egbert"
+                                    ],
+                                    "items": [
+                                        "fake-arms"
+                                    ],
+                                    "path": "/earth/egberthouse/johnsroom"
+                                }
+                            ],
+                            "path": "/"
+                        }
+                    ]
                 }
             ]
         },
@@ -328,16 +384,24 @@
             ],
             "universes": [
                 {
-                    "characters": [
-                        "john-egbert"
-                    ],
-                    "items": [
-                        "fake-arms",
-                        "poster"
-                    ],
-                    "location": "/earth/egberthouse/johnsroom",
                     "name": "earth-pre-scratch",
-                    "timeline": "/"
+                    "timelines": [
+                        {
+                            "locations": [
+                                {
+                                    "characters": [
+                                        "john-egbert"
+                                    ],
+                                    "items": [
+                                        "fake-arms",
+                                        "poster"
+                                    ],
+                                    "path": "/earth/egberthouse/johnsroom"
+                                }
+                            ],
+                            "path": "/"
+                        }
+                    ]
                 }
             ]
         },
@@ -363,13 +427,21 @@
             "tags": [],
             "universes": [
                 {
-                    "characters": [
-                        "john-egbert"
-                    ],
-                    "items": [],
-                    "location": "/earth/egberthouse/johnsroom",
                     "name": "earth-pre-scratch",
-                    "timeline": "/"
+                    "timelines": [
+                        {
+                            "locations": [
+                                {
+                                    "characters": [
+                                        "john-egbert"
+                                    ],
+                                    "items": [],
+                                    "path": "/earth/egberthouse/johnsroom"
+                                }
+                            ],
+                            "path": "/"
+                        }
+                    ]
                 }
             ]
         },
@@ -406,22 +478,28 @@
             "tags": [],
             "universes": [
                 {
-                    "characters": [
-                        "john-egbert"
-                    ],
-                    "items": [],
-                    "location": "/earth/egberthouse/johnsroom",
                     "name": "earth-pre-scratch",
-                    "timeline": "/"
-                },
-                {
-                    "characters": [
-                        "dave-strider"
-                    ],
-                    "items": [],
-                    "location": "/earth/striderhouse/davesroom",
-                    "name": "earth-pre-scratch",
-                    "timeline": "/"
+                    "timelines": [
+                        {
+                            "locations": [
+                                {
+                                    "characters": [
+                                        "john-egbert"
+                                    ],
+                                    "items": [],
+                                    "path": "/earth/egberthouse/johnsroom"
+                                },
+                                {
+                                    "characters": [
+                                        "dave-strider"
+                                    ],
+                                    "items": [],
+                                    "path": "/earth/striderhouse/davesroom"
+                                }
+                            ],
+                            "path": "/"
+                        }
+                    ]
                 }
             ]
         },
@@ -458,13 +536,21 @@
             ],
             "universes": [
                 {
-                    "characters": [
-                        "dadbert"
-                    ],
-                    "items": [],
-                    "location": "/earth/egberthouse/yard",
                     "name": "earth-pre-scratch",
-                    "timeline": "/"
+                    "timelines": [
+                        {
+                            "locations": [
+                                {
+                                    "characters": [
+                                        "dadbert"
+                                    ],
+                                    "items": [],
+                                    "path": "/earth/egberthouse/yard"
+                                }
+                            ],
+                            "path": "/"
+                        }
+                    ]
                 }
             ]
         },
@@ -490,22 +576,28 @@
             "tags": [],
             "universes": [
                 {
-                    "characters": [
-                        "john-egbert"
-                    ],
-                    "items": [],
-                    "location": "/earth/egberthouse/johnsroom",
                     "name": "earth-pre-scratch",
-                    "timeline": "/"
-                },
-                {
-                    "characters": [
-                        "dave-strider"
-                    ],
-                    "items": [],
-                    "location": "/earth/striderhouse/davesroom",
-                    "name": "earth-pre-scratch",
-                    "timeline": "/"
+                    "timelines": [
+                        {
+                            "locations": [
+                                {
+                                    "characters": [
+                                        "john-egbert"
+                                    ],
+                                    "items": [],
+                                    "path": "/earth/egberthouse/johnsroom"
+                                },
+                                {
+                                    "characters": [
+                                        "dave-strider"
+                                    ],
+                                    "items": [],
+                                    "path": "/earth/striderhouse/davesroom"
+                                }
+                            ],
+                            "path": "/"
+                        }
+                    ]
                 }
             ]
         }
