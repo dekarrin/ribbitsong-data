@@ -315,6 +315,9 @@
                     "result_items": [
                         "hammer-and-nails"
                     ],
+					"results_in_sylladex": [
+						"hammer-and-nails"
+					],
                     "source_items": [
                         "hammer",
                         "nails"
@@ -398,6 +401,9 @@
                     "result_items": [
                         "hammer"
                     ],
+					"results_in_sylladex": [
+						"hammer"
+					],
                     "source_items": [
                         "hammer-and-nails"
                     ],
@@ -760,6 +766,7 @@
                     "result_items": [
                         "fake-arm-cake"
                     ],
+					"results_in_sylladex": [],
                     "source_items": [
                         "fake-arms",
                         "cake"
@@ -780,6 +787,239 @@
                                     "items": [
                                         "fake-arm-cake"
                                     ],
+                                    "path": "/earth/egberthouse/johnsroom"
+                                }
+                            ],
+                            "path": "/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "citations": [],
+            "constraints": [
+                {
+                    "is_after": true,
+                    "ref_event": "1f2cd164-4e00-4b45-859b-34c1ffbcac46",
+                    "type": "narrative_causal"
+                },
+                {
+                    "is_after": true,
+                    "ref_event": "1f2cd164-4e00-4b45-859b-34c1ffbcac46",
+                    "type": "narrative_causal"
+                }
+            ],
+            "description": "On Dave's advice, John sets his strife specibus to hammerkind and then allocates his hammer to it.",
+            "id": "d3013a3f-a179-4cba-ba29-6831534766d3",
+            "name": "John assigns hammer to strife specifibus",
+            "portrayed_in": {
+                "panel": 38,
+                "paragraph": 0,
+                "sentence": 0,
+                "type": "narration",
+                "work": "homestuck"
+            },
+            "tags": [
+                {
+                    "character": "john-egbert",
+                    "consumed": true,
+                    "item": "hammer",
+                    "type": "char_uses_item"
+                },
+                {
+                    "property": "kind_abstratus",
+                    "recipient": "john-egbert",
+                    "type": "state_changed",
+                    "value": "hammerkind"
+                }
+            ],
+            "universes": [
+                {
+                    "name": "earth-pre-scratch",
+                    "timelines": [
+                        {
+                            "locations": [
+                                {
+                                    "characters": [
+                                        "john-egbert"
+                                    ],
+                                    "items": [],
+                                    "path": "/earth/egberthouse/johnsroom"
+                                }
+                            ],
+                            "path": "/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "citations": [],
+            "constraints": [
+                {
+                    "is_after": true,
+                    "ref_event": "d3013a3f-a179-4cba-ba29-6831534766d3",
+                    "type": "narrative_immediate"
+                }
+            ],
+            "description": "John reports back to dave that he allocated his specibus to hammerkind. Dave notes that this is permament, and perhaps he should have mentioned that before",
+            "id": "e334386d-8608-41c2-ac4e-b53292e4acce",
+            "name": "EB -> TG: specibus allocations are permanent",
+            "portrayed_in": {
+                "character": "0",
+                "line": 0,
+                "panel": 39,
+                "type": "dialog",
+                "work": "homestuck"
+            },
+            "tags": [],
+            "universes": [
+                {
+                    "name": "earth-pre-scratch",
+                    "timelines": [
+                        {
+                            "locations": [
+                                {
+                                    "characters": [
+                                        "john-egbert"
+                                    ],
+                                    "items": [],
+                                    "path": "/earth/egberthouse/johnsroom"
+                                },
+                                {
+                                    "characters": [
+                                        "dave-strider"
+                                    ],
+                                    "items": [],
+                                    "path": "/earth/striderhouse/davesroom"
+                                }
+                            ],
+                            "path": "/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "citations": [],
+            "constraints": [
+                {
+                    "is_after": true,
+                    "ref_event": "e334386d-8608-41c2-ac4e-b53292e4acce",
+                    "type": "narrative_immediate"
+                }
+            ],
+            "description": "John picks up the colonol sassacre book",
+            "id": "e4535d1a-85ac-4a2a-ac85-e5efc792af0d",
+            "name": "John captchalogues sassacre",
+            "portrayed_in": {
+                "panel": 40,
+                "paragraph": 0,
+                "sentence": 0,
+                "type": "narration",
+                "work": "homestuck"
+            },
+            "tags": [
+                {
+                    "character": "john-egbert",
+                    "item": "colonel-sassacre-book",
+                    "type": "char_obtains_item"
+                }
+            ],
+            "universes": [
+                {
+                    "name": "earth-pre-scratch",
+                    "timelines": [
+                        {
+                            "locations": [
+                                {
+                                    "characters": [
+                                        "john-egbert"
+                                    ],
+                                    "items": [],
+                                    "path": "/earth/egberthouse/johnsroom"
+                                }
+                            ],
+                            "path": "/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "citations": [],
+            "constraints": [
+                {
+                    "is_after": true,
+                    "ref_event": "e4535d1a-85ac-4a2a-ac85-e5efc792af0d",
+                    "type": "narrative_causal"
+                }
+            ],
+            "description": "John picks up gameBro and a magicians hat, then combiness the hat with the beaglepuss to make a clever disguise which he immediately puts on",
+            "id": "0cce3fd6-1f04-41ee-9bb1-722d7f8160e6",
+            "name": "John picks up more gear",
+            "portrayed_in": {
+                "panel": 46,
+                "paragraph": 0,
+                "sentence": 0,
+                "type": "narration",
+                "work": "homestuck"
+            },
+            "tags": [
+                {
+                    "character": "john-egbert",
+                    "item": "game-bro-magazine",
+                    "type": "char_obtains_item"
+                },
+                {
+                    "character": "john-egbert",
+                    "item": "magicians-hat",
+                    "type": "char_obtains_item"
+                },
+                {
+                    "by": "john-egbert",
+                    "result_items": [
+                        "clever-disguise"
+                    ],
+					"results_in_sylladex": [
+						"clever-disguise"
+					],
+                    "source_items": [
+                        "magicians-hat",
+                        "beagle-puss"
+                    ],
+                    "type": "item_merged"
+                },
+                {
+                    "character": "john-egbert",
+                    "consumed": true,
+                    "item": "clever-disguise",
+                    "type": "char_uses_item"
+                },
+                {
+                    "property": "clothes",
+                    "recipient": "john-egbert",
+                    "type": "state_changed",
+                    "value": "+clever-disguise"
+                },
+				{
+					"appearance": "cleverly-disguised",
+					"recipient": "john-egbert",
+					"type": "appearance_changed"
+				}
+            ],
+            "universes": [
+                {
+                    "name": "earth-pre-scratch",
+                    "timelines": [
+                        {
+                            "locations": [
+                                {
+                                    "characters": [
+                                        "john-egbert"
+                                    ],
+                                    "items": [],
                                     "path": "/earth/egberthouse/johnsroom"
                                 }
                             ],
