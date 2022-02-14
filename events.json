@@ -315,9 +315,9 @@
                     "result_items": [
                         "hammer-and-nails"
                     ],
-					"results_in_sylladex": [
-						"hammer-and-nails"
-					],
+                    "results_in_sylladex": [
+                        "hammer-and-nails"
+                    ],
                     "source_items": [
                         "hammer",
                         "nails"
@@ -401,9 +401,9 @@
                     "result_items": [
                         "hammer"
                     ],
-					"results_in_sylladex": [
-						"hammer"
-					],
+                    "results_in_sylladex": [
+                        "hammer"
+                    ],
                     "source_items": [
                         "hammer-and-nails"
                     ],
@@ -766,7 +766,7 @@
                     "result_items": [
                         "fake-arm-cake"
                     ],
-					"results_in_sylladex": [],
+                    "results_in_sylladex": [],
                     "source_items": [
                         "fake-arms",
                         "cake"
@@ -982,9 +982,9 @@
                     "result_items": [
                         "clever-disguise"
                     ],
-					"results_in_sylladex": [
-						"clever-disguise"
-					],
+                    "results_in_sylladex": [
+                        "clever-disguise"
+                    ],
                     "source_items": [
                         "magicians-hat",
                         "beagle-puss"
@@ -1003,11 +1003,11 @@
                     "type": "state_changed",
                     "value": "+clever-disguise"
                 },
-				{
-					"appearance": "cleverly-disguised",
-					"recipient": "john-egbert",
-					"type": "appearance_changed"
-				}
+                {
+                    "appearance": "cleverly-disguised",
+                    "recipient": "john-egbert",
+                    "type": "appearance_changed"
+                }
             ],
             "universes": [
                 {
@@ -1021,6 +1021,582 @@
                                     ],
                                     "items": [],
                                     "path": "/earth/egberthouse/johnsroom"
+                                }
+                            ],
+                            "path": "/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "citations": [],
+            "constraints": [
+                {
+                    "is_after": true,
+                    "ref_event": "0cce3fd6-1f04-41ee-9bb1-722d7f8160e6",
+                    "type": "narrative_immediate"
+                }
+            ],
+            "description": "After getting equipped to disguise dad, John steps into the hallway",
+            "id": "427d8ab3-14a5-4787-925e-d3f488023bdc",
+            "name": "john leaves room",
+            "portrayed_in": {
+                "panel": 47,
+                "paragraph": 0,
+                "sentence": 0,
+                "type": "narration",
+                "work": "homestuck"
+            },
+            "tags": [
+                {
+                    "character": "john-egbert",
+                    "location": "/earth/egberthouse/johnsroom",
+                    "type": "char_exits_location"
+                },
+                {
+                    "character": "john-egbert",
+                    "location": "/earth/egberthouse/livingarea/hallway",
+                    "type": "char_enters_location"
+                }
+            ],
+            "universes": [
+                {
+                    "name": "earth-pre-scratch",
+                    "timelines": [
+                        {
+                            "locations": [
+                                {
+                                    "characters": [
+                                        "john-egbert"
+                                    ],
+                                    "items": [],
+                                    "path": "/earth/egberthouse/livingarea/hallway"
+                                }
+                            ],
+                            "path": "/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "citations": [],
+            "constraints": [
+                {
+                    "is_after": true,
+                    "ref_event": "427d8ab3-14a5-4787-925e-d3f488023bdc",
+                    "type": "narrative_causal"
+                }
+            ],
+            "description": "John goes into the living room and tosses the game bro magazine into the fire",
+            "id": "c28764b8-8790-4fc9-94b1-ca664affdb55",
+            "name": "john tosses gamebro into fire",
+            "portrayed_in": {
+                "panel": 51,
+                "paragraph": 0,
+                "sentence": 0,
+                "type": "narration",
+                "work": "homestuck"
+            },
+            "tags": [
+                {
+                    "character": "john-egbert",
+                    "location": "/earth",
+                    "type": "char_enters_location"
+                },
+                {
+                    "character": "john-egbert",
+                    "consumed": true,
+                    "item": "game-bro-magazine",
+                    "type": "char_uses_item"
+                }
+            ],
+            "universes": [
+                {
+                    "name": "earth-pre-scratch",
+                    "timelines": [
+                        {
+                            "locations": [
+                                {
+                                    "characters": [
+                                        "john-egbert"
+                                    ],
+                                    "items": [],
+                                    "path": "/earth/egberthouse/livingarea/downstairs"
+                                }
+                            ],
+                            "path": "/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "citations": [],
+            "constraints": [
+                {
+                    "is_after": true,
+                    "ref_event": "c28764b8-8790-4fc9-94b1-ca664affdb55",
+                    "type": "narrative_causal"
+                }
+            ],
+            "description": "John picks up and interacts with living room objects and upgrades to beefed up clever disguise",
+            "id": "cdd2cf5e-b38d-4f2f-85e9-c31916d0cd02",
+            "name": "john explores the living room",
+            "portrayed_in": {
+                "panel": 56,
+                "paragraph": 0,
+                "sentence": 0,
+                "type": "narration",
+                "work": "homestuck"
+            },
+            "tags": [
+                {
+                    "character": "john-egbert",
+                    "consumed": false,
+                    "item": "urn",
+                    "type": "char_uses_item"
+                },
+                {
+                    "by": "john-egbert",
+                    "result_items": [
+                        "spilled-urn",
+                        "nanna-ash"
+                    ],
+                    "results_in_sylladex": [],
+                    "source_items": [
+                        "urn"
+                    ],
+                    "type": "item_split"
+                },
+                {
+                    "by": "john-egbert",
+                    "result_items": [
+                        "clever-disguise-smoking"
+                    ],
+                    "results_in_sylladex": [
+                        "clever-disguise-smoking"
+                    ],
+                    "source_items": [
+                        "fathers-pipe",
+                        "clever-disguise"
+                    ],
+                    "type": "item_merged"
+                },
+                {
+                    "by": "john-egbert",
+                    "result_items": [
+                        "wrapping-paper",
+                        "harlequin"
+                    ],
+                    "results_in_sylladex": [],
+                    "source_items": [
+                        "wrapped-harlequin"
+                    ],
+                    "type": "item_split"
+                }
+            ],
+            "universes": [
+                {
+                    "name": "earth-pre-scratch",
+                    "timelines": [
+                        {
+                            "locations": [
+                                {
+                                    "characters": [
+                                        "john-egbert"
+                                    ],
+                                    "items": [],
+                                    "path": "/earth/egberthouse/livingarea/downstairs"
+                                }
+                            ],
+                            "path": "/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "citations": [],
+            "constraints": [
+                {
+                    "is_after": true,
+                    "ref_event": "cdd2cf5e-b38d-4f2f-85e9-c31916d0cd02",
+                    "type": "narrative_causal"
+                }
+            ],
+            "description": "John cleans up and replaces the spilled urn",
+            "id": "d63f9d58-5ea2-49fa-9b1e-a31a61ed41b6",
+            "name": "John fixes the urn",
+            "portrayed_in": {
+                "panel": 59,
+                "paragraph": 0,
+                "sentence": 0,
+                "type": "narration",
+                "work": "homestuck"
+            },
+            "tags": [
+                {
+                    "character": "john-egbert",
+                    "item": "ashes",
+                    "type": "char_obtains_item"
+                },
+                {
+                    "by": "john-egbert",
+                    "result_items": [
+                        "urn"
+                    ],
+                    "results_in_sylladex": [
+                        "urn"
+                    ],
+                    "source_items": [
+                        "nanna-ashes",
+                        "spilled-urn"
+                    ],
+                    "type": "item_merged"
+                },
+                {
+                    "character": "john-egbert",
+                    "item": "urn",
+                    "type": "char_drops_item"
+                }
+            ],
+            "universes": [
+                {
+                    "name": "earth-pre-scratch",
+                    "timelines": [
+                        {
+                            "locations": [
+                                {
+                                    "characters": [
+                                        "john-egbert"
+                                    ],
+                                    "items": [],
+                                    "path": "/earth/egberthouse/livingarea/downstairs"
+                                }
+                            ],
+                            "path": "/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "citations": [],
+            "constraints": [
+                {
+                    "is_after": true,
+                    "ref_event": "d63f9d58-5ea2-49fa-9b1e-a31a61ed41b6",
+                    "type": "narrative_immediate"
+                }
+            ],
+            "description": "John rushes back to his room and grabs the fake arms andd also receives a ping on pesterchum",
+            "id": "19cfe7fd-6407-4a5b-ba60-536a511640f4",
+            "name": "john gets ping and grabs arms",
+            "portrayed_in": {
+                "panel": 60,
+                "paragraph": 0,
+                "sentence": 0,
+                "type": "narration",
+                "work": "homestuck"
+            },
+            "tags": [
+                {
+                    "character": "john-egbert",
+                    "location": "/earth/egberthouse/livingarea/downstairs",
+                    "type": "char_exits_location"
+                },
+                {
+                    "by": "john-egbert",
+                    "result_items": [
+                        "fake-arms",
+                        "cake"
+                    ],
+                    "results_in_sylladex": [
+                        "fake-arms"
+                    ],
+                    "source_items": [
+                        "cake-with-arms"
+                    ],
+                    "type": "item_split"
+                },
+                {
+                    "character": "john-egbert",
+                    "location": "/earth/egberthouse/livingarea/downstairs",
+                    "type": "char_enters_location"
+                }
+            ],
+            "universes": [
+                {
+                    "name": "earth-pre-scratch",
+                    "timelines": [
+                        {
+                            "locations": [
+                                {
+                                    "characters": [
+                                        "john-egbert"
+                                    ],
+                                    "items": [],
+                                    "path": "/earth/egberthouse/johnsroom"
+                                }
+                            ],
+                            "path": "/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "citations": [],
+            "constraints": [
+                {
+                    "is_after": true,
+                    "ref_event": "19cfe7fd-6407-4a5b-ba60-536a511640f4",
+                    "type": "narrative_causal"
+                },
+                {
+                    "citation": {
+                        "panel": 63,
+                        "paragraph": 0,
+                        "sentence": 0,
+                        "type": "narration",
+                        "work": "homestuck"
+                    },
+                    "time": "4/13/2009 16:26",
+                    "type": "absolute"
+                }
+            ],
+            "description": "Rose messages john and asks if he has the game yet, then advises that he get it from his father",
+            "id": "3a3abf41-a5d1-4ff6-9b73-c16653c00482",
+            "name": "TT -> EB: Go get the game",
+            "portrayed_in": {
+                "panel": 63,
+                "paragraph": 0,
+                "sentence": 0,
+                "type": "narration",
+                "work": "homestuck"
+            },
+            "tags": [],
+            "universes": [
+                {
+                    "name": "earth-pre-scratch",
+                    "timelines": [
+                        {
+                            "locations": [
+                                {
+                                    "characters": [
+                                        "john-egbert"
+                                    ],
+                                    "items": [],
+                                    "path": "/earth/egberthouse/johnsroom"
+                                },
+                                {
+                                    "characters": [
+                                        "rose-lalonde"
+                                    ],
+                                    "items": [],
+                                    "path": "/earth/lalondehouse/rosesroom"
+                                }
+                            ],
+                            "path": "/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "citations": [],
+            "constraints": [
+                {
+                    "is_after": true,
+                    "ref_event": "3a3abf41-a5d1-4ff6-9b73-c16653c00482",
+                    "type": "narrative_causal"
+                }
+            ],
+            "description": "John cleans up various articles from around the room",
+            "id": "5517ff5b-bd06-4467-9369-7cd28895525e",
+            "name": "John cleans up the living room",
+            "portrayed_in": {
+                "panel": 70,
+                "paragraph": 0,
+                "sentence": 0,
+                "type": "narration",
+                "work": "homestuck"
+            },
+            "tags": [
+                {
+                    "character": "john-egbert",
+                    "location": "/earth/egberthouse/johnsroom",
+                    "type": "char_exits_location"
+                },
+                {
+                    "character": "john-egbert",
+                    "location": "/earth/egberthouse/livingarea/downstairs",
+                    "type": "char_enters_location"
+                },
+                {
+                    "by": "john-egbert",
+                    "result_items": [
+                        "arm-harlequin"
+                    ],
+                    "results_in_sylladex": [],
+                    "source_items": [
+                        "harlequin",
+                        "fake-arms"
+                    ],
+                    "type": "item_merged"
+                },
+                {
+                    "character": "john-egbert",
+                    "consumed": true,
+                    "item": "wrapping-paper",
+                    "type": "char_uses_item"
+                }
+            ],
+            "universes": [
+                {
+                    "name": "earth-pre-scratch",
+                    "timelines": [
+                        {
+                            "locations": [
+                                {
+                                    "characters": [
+                                        "john-egbert"
+                                    ],
+                                    "items": [],
+                                    "path": "/earth/egberthouse/livingarea/downstairs"
+                                }
+                            ],
+                            "path": "/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "citations": [],
+            "constraints": [
+                {
+                    "is_after": true,
+                    "ref_event": "5517ff5b-bd06-4467-9369-7cd28895525e",
+                    "type": "narrative_causal"
+                }
+            ],
+            "description": "John explores the study while searching for his dad",
+            "id": "d48b4671-5e6d-4539-9024-dd87dfe53002",
+            "name": "John looks for dad in study",
+            "portrayed_in": {
+                "panel": 76,
+                "paragraph": 0,
+                "sentence": 0,
+                "type": "narration",
+                "work": "homestuck"
+            },
+            "tags": [
+                {
+                    "by": "john-egbert",
+                    "result_items": [
+                        "magicians-hat",
+                        "clever-disguise"
+                    ],
+                    "results_in_sylladex": [
+                        "clever-disguise"
+                    ],
+                    "source_items": [
+                        "smoking-clever-disguise"
+                    ],
+                    "type": "item_split"
+                },
+                {
+                    "by": "john-egbert",
+                    "result_items": [
+                        "distinguished-disguise"
+                    ],
+                    "results_in_sylladex": [
+                        "distinguised-disguise"
+                    ],
+                    "source_items": [
+                        "bowler-hat",
+                        "clever-disguise"
+                    ],
+                    "type": "item_merged"
+                },
+                {
+                    "appearance": "distinguised-disguise",
+                    "recipient": "john-egbert",
+                    "type": "appearance_changed"
+                },
+                {
+                    "property": "cancel",
+                    "recipient": "john-egbert",
+                    "type": "state_changed",
+                    "value": "n/a"
+                },
+                {
+                    "character": "john-egbert",
+                    "item": "captchalogue-card",
+                    "type": "char_obtains_item"
+                }
+            ],
+            "universes": [
+                {
+                    "name": "earth-pre-scratch",
+                    "timelines": [
+                        {
+                            "locations": [
+                                {
+                                    "characters": [
+                                        "john-egbert"
+                                    ],
+                                    "items": [
+                                        "deck-of-playing-cards",
+                                        "serious-jester-magazine",
+                                        "caphtchalogue-card",
+                                        "can-of-peanuts",
+                                        "bowler-hat",
+                                        "fathers-pipe"
+                                    ],
+                                    "path": "/earth/egberthouse/study"
+                                }
+                            ],
+                            "path": "/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "citations": [],
+            "constraints": [
+                {
+                    "is_after": true,
+                    "ref_event": "d48b4671-5e6d-4539-9024-dd87dfe53002",
+                    "type": "narrative_immediate"
+                }
+            ],
+            "description": "John plays the piano refrain",
+            "id": "d9704616-5d11-41b2-926c-6bb8c346b9dc",
+            "name": "[S] John: Play haunting piano refrain",
+            "portrayed_in": {
+                "panel": 77,
+                "timestamp": "0:00",
+                "type": "media",
+                "work": "homestuck"
+            },
+            "tags": [],
+            "universes": [
+                {
+                    "name": "earth-pre-scratch",
+                    "timelines": [
+                        {
+                            "locations": [
+                                {
+                                    "characters": [
+                                        "john-egbert"
+                                    ],
+                                    "items": [],
+                                    "path": "/earth/egberthouse/study"
                                 }
                             ],
                             "path": "/"
